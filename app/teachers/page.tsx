@@ -8,55 +8,55 @@ import { Button } from "@/components/ui/button"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
-// Full team roster with actual teacher photos
+// Expert trainers from the official website
 const teamMembers = [
   {
     name: "Dr. Srinatha",
-    role: "Founder & Master Teacher",
+    role: "Founder and Director",
     image: "/teachers/Dr.Srinatha.webp",
     bgColor: "#264020",
   },
   {
-    name: "Ravi",
-    role: "Senior Instructor",
+    name: "Ravi Prabhakar",
+    role: "Methodology, Anatomy & Physiology Teacher",
     image: "/teachers/ravi.webp",
     bgColor: "#7BA3A8",
   },
   {
-    name: "Vinayak",
-    role: "Ashtanga Teacher",
+    name: "Vinayaka Honnavar",
+    role: "Yoga Philosophy, Meditation & Sound Healing",
     image: "/teachers/vinayak.webp",
     bgColor: "#8B9D83",
   },
   {
-    name: "Charanya",
-    role: "Hatha Yoga Instructor",
-    image: "/teachers/charanya.webp",
-    bgColor: "#C4A484",
-  },
-  {
-    name: "Sahana",
-    role: "Meditation Teacher",
+    name: "Sahana P R",
+    role: "Yin Yoga, Prenatal & Postnatal, Anatomy",
     image: "/teachers/Sahana.webp",
     bgColor: "#9DB4C0",
   },
   {
-    name: "Anu",
-    role: "Pranayama Expert",
-    image: "/teachers/Anu.webp",
-    bgColor: "#8B8B6B",
-  },
-  {
     name: "Hrishanth",
-    role: "Yoga Therapist",
+    role: "Yoga Therapy & Ashtanga Yoga Teacher",
     image: "/teachers/hrishanth.webp",
     bgColor: "#A89F91",
   },
   {
-    name: "Minu",
-    role: "Nutrition & Wellness Coach",
+    name: "Minu Sajji",
+    role: "Pranayama, Wheel and Chair Yoga Teacher",
     image: "/teachers/minu.webp",
     bgColor: "#B5838D",
+  },
+  {
+    name: "Charanya",
+    role: "Ayurveda, Philosophy & Pranayama Teacher",
+    image: "/teachers/charanya.webp",
+    bgColor: "#C4A484",
+  },
+  {
+    name: "Anulasha Ram",
+    role: "Aerial Yoga Teacher & Marketing Head",
+    image: "/teachers/Anu.webp",
+    bgColor: "#8B8B6B",
   },
 ]
   },
