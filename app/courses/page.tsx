@@ -1,14 +1,13 @@
+"use client"
+
 import type { Metadata } from "next"
+import Image from "next/image"
 
 export const metadata: Metadata = {
   title: "Yoga Courses | Beginner to Advanced | Srinatha Yoga Shala",
   description: "Explore our yoga programs - from 21-day beginner courses to 300h advanced teacher training. Certified courses in Ashtanga, Hatha, Pranayama & Meditation.",
   keywords: ["yoga courses", "beginner yoga", "intermediate yoga", "advanced yoga", "yoga teacher training", "200h TTC", "300h TTC", "pranayama course", "meditation course", "yoga certification"],
 }
-
-"use client"
-
-import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { Menu, X, ChevronLeft, Star, Calendar, Clock, CheckCircle, Award, Download, Instagram } from "lucide-react"

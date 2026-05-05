@@ -1,14 +1,13 @@
+"use client"
+
 import type { Metadata } from "next"
+import Image from "next/image"
 
 export const metadata: Metadata = {
   title: "Yoga Shop | Books, T-Shirts, Sound Healing Bowls & Yoga Equipment | Srinatha Yoga",
   description: "Shop authentic yoga products - books, organic cotton t-shirts, singing bowls, meditation cushions, and yoga equipment. Support your practice with quality gear.",
   keywords: ["yoga shop", "yoga books", "yoga t-shirt", "singing bowl", "sound healing", "meditation cushion", "yoga mat", "yoga equipment"],
 }
-
-"use client"
-
-import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ChevronLeft, ShoppingCart, Star, Filter } from "lucide-react"

@@ -1,13 +1,12 @@
+"use client"
+
 import type { Metadata } from "next"
+import Image from "next/image"
 
 export const metadata: Metadata = {
   title: "Resources | Student Dashboard | Srinatha Yoga Shala",
   description: "Access study materials, asana manuals, chanting guides, and more.",
 }
-
-"use client"
-
-import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ChevronLeft, FileText, Download, BookOpen, Headphones, Video, Search } from "lucide-react"

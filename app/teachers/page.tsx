@@ -1,14 +1,13 @@
+"use client"
+
 import type { Metadata } from "next"
+import Image from "next/image"
 
 export const metadata: Metadata = {
   title: "Our Team | Meet the Yoga Teachers | Srinatha Yoga Shala",
   description: "Meet our expert yoga teachers and instructors. Learn from certified professionals with 10+ years of experience in Mysore, Ashtanga, and traditional yoga.",
   keywords: ["yoga teachers", "yoga instructors", "yoga team", "Srinatha yoga teachers", "yoga educators", "Ashtanga teacher", "yoga acharya"],
 }
-
-"use client"
-
-import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ChevronLeft } from "lucide-react"
