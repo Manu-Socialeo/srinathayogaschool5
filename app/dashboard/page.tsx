@@ -1,13 +1,6 @@
 "use client"
 
-import type { Metadata } from "next"
 import { useState } from "react"
-
-export const metadata: Metadata = {
-  title: "Student Dashboard | My Courses | Srinatha Yoga Shala",
-  description: "Access your yoga courses, track progress, view certificates, and join live sessions. Continue your yoga journey with Srinatha Yoga Shala.",
-  keywords: ["student dashboard", "yoga student portal", "my courses", "yoga progress", "certificate", "live yoga classes"],
-}
 import Link from "next/link"
 import Image from "next/image"
 import { 

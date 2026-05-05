@@ -1,13 +1,6 @@
 "use client"
 
-import type { Metadata } from "next"
 import { useState, useEffect } from "react"
-
-export const metadata: Metadata = {
-  title: "Srinatha Yoga Shala | Traditional Mysore Yoga Online | Yoga Teacher Training",
-  description: "Transform your life with traditional Mysore yoga online. Join 200k+ students in certified yoga teacher training, meditation, and pranayama courses. Yoga Alliance accredited.",
-  keywords: ["yoga teacher training", "online yoga", "Mysore yoga", "Ashtanga yoga", "Hatha yoga", "yoga certification", "200h TTC", "300h TTC", "pranayama", "meditation", "yoga Alliance RYS"],
-}
 import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"

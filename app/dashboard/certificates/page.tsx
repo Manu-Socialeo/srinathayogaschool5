@@ -1,12 +1,6 @@
 "use client"
 
-import type { Metadata } from "next"
 import Image from "next/image"
-
-export const metadata: Metadata = {
-  title: "Certificates | Student Dashboard | Srinatha Yoga Shala",
-  description: "View and download your yoga course completion certificates.",
-}
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ChevronLeft, Award, Download, Share2, Clock, CheckCircle } from "lucide-react"

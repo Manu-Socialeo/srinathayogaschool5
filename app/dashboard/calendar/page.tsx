@@ -1,12 +1,6 @@
 "use client"
 
-import type { Metadata } from "next"
 import Image from "next/image"
-
-export const metadata: Metadata = {
-  title: "Practice Calendar | Student Dashboard | Srinatha Yoga Shala",
-  description: "View your upcoming yoga classes, practice sessions, and live events.",
-}
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ChevronLeft, ChevronRight, Play, Video, Clock, Calendar as CalendarIcon } from "lucide-react"
