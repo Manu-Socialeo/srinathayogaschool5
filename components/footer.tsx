@@ -7,20 +7,16 @@ import { Button } from "@/components/ui/button"
 
 const footerLinks = {
   main: [
-    { name: "About Us", href: "/about" },
+    { name: "About Us", href: "/" },
     { name: "Courses", href: "/courses" },
     { name: "Teachers", href: "/teachers" },
-    { name: "Philosophy", href: "/philosophy" },
-    { name: "Yoga", href: "/courses" },
-    { name: "Recipes", href: "/recipes" },
+    { name: "Contact Us", href: "/contact" },
   ],
   secondary: [
-    { name: "Youth", href: "/youth" },
     { name: "Meet The Team", href: "/teachers" },
-    { name: "Stories", href: "/stories" },
-    { name: "Blogs", href: "/blogs" },
-    { name: "Contact Us", href: "/contact" },
-    { name: "Workshop Login", href: "/dashboard" },
+    { name: "Blogs", href: "#" },
+    { name: "Shop", href: "/shop" },
+    { name: "Student Login", href: "/dashboard" },
   ],
 }
 
@@ -145,7 +141,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-[#264020]/60">
-              &copy; 2025 Srinatha Yoga Shala. All Rights Reserved.
+              &copy; 2026 Srinatha Yoga Shala. All Rights Reserved.
             </p>
             <div className="flex gap-6 text-sm text-[#264020]/60">
               <Link href="/privacy" className="hover:text-[#264020] transition-colors">

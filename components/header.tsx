@@ -10,10 +10,11 @@ import { Button } from "@/components/ui/button"
 
 const navItems = [
   { name: "Home", href: "/" },
-  { name: "Teachers", href: "/teachers" },
+  { name: "About", href: "/" },
   { name: "Courses", href: "/courses" },
+  { name: "Teachers", href: "/teachers" },
+  { name: "Contact", href: "/contact" },
   { name: "Shop", href: "/shop" },
-  { name: "Blogs", href: "#" },
 ]
 
 export function Header() {
