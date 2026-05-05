@@ -136,14 +136,24 @@ const allCourses = [
 // Educators
 const educators = [
   {
-    name: "Radhika Gupta",
-    bio: "Radhika was trained by Dr. Balasundra Srinatha and BNS Iyengar in Mysore in 2017. She has an Honours degree in Psychology from Lady Shree Ram College, Delhi. She combines the tools of modern science and ancient scriptures to help you grow better.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+    name: "Dr. Srinatha",
+    bio: "Dr. Srinatha is the Founder and Director with 30+ years experience. He is a senior teacher of Hatha Yoga, Iyengar Yoga, and Ashtanga Yoga.",
+    image: "/teachers/Dr.Srinatha.webp",
   },
   {
-    name: "Akshay Jain",
-    bio: "Akshay, an inner-work teacher at Srinatha Yoga Shala, discovered his passion for yoga at the age of 20. He has trained as a Yoga Acharya under Swami Prabhod in Mysore in the philosophy and practices of Meditation.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    name: "Sahana P R",
+    bio: "Sahana specializes in Yin Yoga, Prenatal and Postnatal Yoga, and Applied Yoga Anatomy.",
+    image: "/teachers/Sahana.webp",
+  },
+  {
+    name: "Hrishanth",
+    bio: "Hrishanth is a Yoga Therapy teacher and Ashtanga Yoga instructor specializing in therapeutic yoga.",
+    image: "/teachers/hrishanth.webp",
+  },
+  {
+    name: "Charanya",
+    bio: "Charanya teaches Ayurveda, Yoga Philosophy, and Pranayama with deep traditional knowledge.",
+    image: "/teachers/charanya.webp",
   },
 ]
 

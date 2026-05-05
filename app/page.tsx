@@ -50,32 +50,34 @@ const courses = [
   },
 ]
 
-// Educators with colored backgrounds (matching Satvic style)
+// Educators with real photos
 const educators = [
   {
-    name: "Subah Saraf",
-    role: "Co-founder",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#8B9D83", // Sage green
+    name: "Dr. Srinatha",
+    role: "Founder and Director",
+    image: "/teachers/Dr.Srinatha.webp",
+    bgColor: "#264020",
   },
   {
-    name: "Harshvardhan Saraf",
-    role: "Co-founder",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#7BA3A8", // Teal
+    name: "Ravi Prabhakar",
+    role: "Methodology & Anatomy Teacher",
+    image: "/teachers/ravi.webp",
+    bgColor: "#7BA3A8",
   },
   {
-    name: "Radhika Gupta",
-    role: "Co-Leader of Yoga Wing",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#C4A484", // Tan
+    name: "Sahana P R",
+    role: "Yin Yoga & Prenatal Teacher",
+    image: "/teachers/Sahana.webp",
+    bgColor: "#C4A484",
   },
   {
-    name: "Akshay Jain",
-    role: "Co-Leader of Yoga Wing",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#8B8B6B", // Olive
-  },
+    name: "Hrishanth",
+    role: "Yoga Therapy & Ashtanga",
+    image: "/teachers/hrishanth.webp",
+    bgColor: "#8B8B6B",
+},
+]
+]
   {
     name: "Rajat Jadon",
     role: "Host of 5AM Challenge & Co-Leader of the Youth Wing",
