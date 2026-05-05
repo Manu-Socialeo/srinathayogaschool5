@@ -8,131 +8,57 @@ import { Button } from "@/components/ui/button"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
-// Full team roster matching the reference design
+// Full team roster with actual teacher photos
 const teamMembers = [
-  // Row 1
   {
-    name: "Subah Saraf",
-    role: "Co-founder",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop&crop=top",
+    name: "Dr. Srinatha",
+    role: "Founder & Master Teacher",
+    image: "/teachers/Dr.Srinatha.webp",
+    bgColor: "#264020",
+  },
+  {
+    name: "Ravi",
+    role: "Senior Instructor",
+    image: "/teachers/ravi.webp",
+    bgColor: "#7BA3A8",
+  },
+  {
+    name: "Vinayak",
+    role: "Ashtanga Teacher",
+    image: "/teachers/vinayak.webp",
     bgColor: "#8B9D83",
   },
   {
-    name: "Harshvardhan Saraf",
-    role: "Co-founder",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#7BA3A8",
-  },
-  {
-    name: "Radhika Gupta",
-    role: "Co-Leader of Yoga Wing",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=500&fit=crop&crop=top",
+    name: "Charanya",
+    role: "Hatha Yoga Instructor",
+    image: "/teachers/charanya.webp",
     bgColor: "#C4A484",
   },
   {
-    name: "Akshay Jain",
-    role: "Co-Leader of Yoga Wing",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#8B8B6B",
-  },
-  {
-    name: "Rajat Jadon",
-    role: "Host of 5AM Challenge & Co-Leader of the Youth Wing",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#A89F91",
-  },
-  // Row 2
-  {
-    name: "Himadri Pareek",
-    role: "Co-Leader of the Youth Wing",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=500&fit=crop&crop=top",
+    name: "Sahana",
+    role: "Meditation Teacher",
+    image: "/teachers/Sahana.webp",
     bgColor: "#9DB4C0",
   },
   {
-    name: "Mini Gupta",
-    role: "Co-Host of the Satvic Food Challenge",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#A3B18A",
-  },
-  {
-    name: "Pankaj Kumar",
-    role: "Graphic Designer",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#7BA3A8",
-  },
-  {
-    name: "Harsha Gharat",
-    role: "Lead Graphic Designer",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#C4A484",
-  },
-  {
-    name: "Tanvi Dhane",
-    role: "Graphic Designer",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#A89F91",
-  },
-  // Row 3
-  {
-    name: "Pallavi Rai",
-    role: "Graphic Designer for Yoga Wing",
-    image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#9DB4C0",
-  },
-  {
-    name: "Riddhi Patel",
-    role: "Product Designer",
-    image: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#E8837A",
-  },
-  {
-    name: "Bharti Saraswat",
-    role: "Post-production Supervisor",
-    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#7DB9B6",
-  },
-  {
-    name: "Manish Panicker",
-    role: "Cinematographer & Video Editor",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#7BA3A8",
-  },
-  {
-    name: "Vinod Parishwad",
-    role: "Senior Video Editor",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#C9D77E",
-  },
-  // Row 4
-  {
-    name: "Abhijeet Singh",
-    role: "Videographer",
-    image: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#C49A6C",
-  },
-  {
-    name: "Ankita Bhasin",
-    role: "Creative Writer",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#8B9D83",
-  },
-  {
-    name: "Swati Singh",
-    role: "Post-production Supervisor",
-    image: "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#6B8F71",
-  },
-  {
-    name: "Hari Shukla",
-    role: "Senior Video Editor",
-    image: "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&h=500&fit=crop&crop=top",
+    name: "Anu",
+    role: "Pranayama Expert",
+    image: "/teachers/Anu.webp",
     bgColor: "#8B8B6B",
   },
   {
-    name: "Ramaskanda",
-    role: "Video Producer",
-    image: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#E8A44A",
+    name: "Hrishanth",
+    role: "Yoga Therapist",
+    image: "/teachers/hrishanth.webp",
+    bgColor: "#A89F91",
+  },
+  {
+    name: "Minu",
+    role: "Nutrition & Wellness Coach",
+    image: "/teachers/minu.webp",
+    bgColor: "#B5838D",
+  },
+]
   },
 ]
 
