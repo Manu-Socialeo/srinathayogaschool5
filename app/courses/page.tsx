@@ -177,7 +177,7 @@ export default function CoursesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-sm" : "bg-white/80 backdrop-blur-sm"}`}>
+      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "glass shadow-sm" : "glass"}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center gap-3">
@@ -294,7 +294,7 @@ export default function CoursesPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="satvic-card bg-white rounded overflow-hidden shadow-sm border border-[#E5E5E5]"
+                  className="satvic-card glass-card rounded-2xl overflow-hidden"
                 >
                   <div className="relative h-48">
                     <Image src={course.image} alt={course.title} fill className="object-cover" />
@@ -387,7 +387,7 @@ export default function CoursesPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-[#FAF8F5] rounded p-6 border border-[#E5E5E5]"
+                  className="glass-card rounded-2xl p-6"
                 >
                   <div className="flex gap-4">
                     <div className="relative w-20 h-20 shrink-0">

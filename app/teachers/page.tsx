@@ -153,13 +153,13 @@ export default function TeachersPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: (index % 5) * 0.07 }}
                   viewport={{ once: true }}
-                  className="flex flex-col items-center"
+                  className="flex flex-col items-center glass-card-hover rounded-2xl p-4 transition-all duration-300 cursor-pointer"
                 >
                   {/* Card: colored rounded box with photo overflowing the top */}
                   <div className="relative w-full" style={{ paddingTop: "24px" }}>
                     {/* Colored background box */}
                     <div
-                      className="w-full rounded-2xl"
+                      className="w-full rounded-xl"
                       style={{ backgroundColor: member.bgColor, height: "160px" }}
                     />
                     {/* Photo — overflows the top of the box */}
@@ -210,7 +210,7 @@ export default function TeachersPage() {
                 >
                   {/* Image */}
                   <div className="w-full md:w-2/5 shrink-0">
-                    <div className="relative w-full h-60 md:h-52 rounded-2xl overflow-hidden shadow-sm">
+                    <div className="relative w-full h-60 md:h-52 rounded-2xl overflow-hidden glass-card">
                       <Image
                         src={value.image}
                         alt={value.title}

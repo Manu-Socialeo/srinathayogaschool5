@@ -160,11 +160,11 @@ export default function HomePage() {
 
               {/* Certification Badges */}
               <div className="flex items-center justify-center gap-4 flex-wrap">
-                <div className="flex items-center gap-2 bg-white px-4 py-2 rounded shadow-sm border border-[#E5E5E5]">
+                <div className="glass-button px-4 py-2 rounded flex items-center gap-2">
                   <Award className="w-5 h-5 text-[#264020]" />
                   <span className="text-sm font-medium text-[#264020]">Yoga Alliance RYS</span>
                 </div>
-                <div className="flex items-center gap-2 bg-white px-4 py-2 rounded shadow-sm border border-[#E5E5E5]">
+                <div className="glass-button px-4 py-2 rounded flex items-center gap-2">
                   <CheckCircle className="w-5 h-5 text-[#264020]" />
                   <span className="text-sm font-medium text-[#264020]">YACP Certified</span>
                 </div>
@@ -176,7 +176,7 @@ export default function HomePage() {
         {/* Stats Section */}
         <section className="py-16 bg-white border-y border-[#E5E5E5]">
           <div className="max-w-7xl mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {stats.map((stat, index) => (
                 <motion.div
                   key={stat.label}
@@ -216,7 +216,7 @@ export default function HomePage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-white rounded-2xl overflow-hidden shadow-sm border border-[#E5E5E5] flex flex-col md:flex-row"
+                  className="glass-card rounded-2xl overflow-hidden flex flex-col md:flex-row"
                 >
                   {/* Image Section */}
                   <div className="relative md:w-2/5 h-64 md:h-auto">
@@ -350,7 +350,7 @@ export default function HomePage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="flex flex-col items-center w-40 md:w-48 bg-white rounded-2xl p-4"
+                  className="flex flex-col items-center w-40 md:w-48 glass-card rounded-2xl p-4 glass-card-hover transition-all duration-300 cursor-pointer"
                 >
                   {/* Colored box with head popping out */}
                   <div className="relative mb-4">
