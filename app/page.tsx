@@ -77,14 +77,6 @@ const educators = [
     bgColor: "#8B8B6B",
 },
 ]
-]
-  {
-    name: "Rajat Jadon",
-    role: "Host of 5AM Challenge & Co-Leader of the Youth Wing",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop&crop=top",
-    bgColor: "#A89F91", // Khaki
-  },
-]
 
 // Instagram posts
 const instagramPosts = [

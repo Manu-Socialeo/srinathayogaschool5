@@ -52,17 +52,15 @@ const teamMembers = [
     image: "/teachers/charanya.webp",
     bgColor: "#C4A484",
   },
-  {
+{
     name: "Anulasha Ram",
     role: "Aerial Yoga Teacher & Marketing Head",
     image: "/teachers/Anu.webp",
     bgColor: "#8B8B6B",
   },
 ]
-  },
-]
 
-// 7 Core Values matching the reference screenshot
+// 7 Core Values
 const coreValues = [
   {
     number: "1",
