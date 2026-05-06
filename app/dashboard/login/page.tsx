@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "Student Login | Srinatha Yoga Shala",
+  title: "Student Login | Srinatha Yoga School",
   description: "Login to access your yoga courses, track progress, and join live sessions.",
 }
 
@@ -13,8 +13,8 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         <div className="bg-white rounded-2xl shadow-sm border border-[#E5E5E5] p-8">
           <Link href="/" className="flex items-center justify-center gap-3 mb-8">
-            <Image src="/images/logo.png" alt="Srinatha Yoga Shala" width={48} height={48} className="h-12 w-auto" />
-            <span className="font-serif text-xl font-semibold text-[#264020]">Srinatha Yoga Shala</span>
+            <Image src="/images/logo.png" alt="Srinatha Yoga School" width={48} height={48} className="h-12 w-auto" />
+            <span className="font-serif text-xl font-semibold text-[#264020]">Srinatha Yoga School</span>
           </Link>
 
           <h1 className="font-serif text-2xl text-[#264020] text-center mb-2">Welcome Back</h1>

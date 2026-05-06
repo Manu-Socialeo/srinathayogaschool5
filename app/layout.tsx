@@ -6,7 +6,7 @@ import './globals.css'
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'YogaSchool',
-  name: 'Srinatha Yoga Shala',
+  name: 'Srinatha Yoga School',
   description: 'Traditional Mysore Yoga, taught online for the modern world. Certified TTC, Philosophy, and Ayurveda courses.',
   url: 'https://srinathayogaschool.com',
   logo: 'https://srinathayogaschool.com/images/logo.png',
@@ -44,20 +44,20 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Srinatha Yoga Shala | Online Ashtanga & Hatha Yoga Teacher Training Mysore',
+  title: 'Srinatha Yoga School | Online Ashtanga & Hatha Yoga Teacher Training Mysore',
   description: 'Experience traditional Mysore yoga online. Certified TTC, Philosophy, and Ayurveda courses led by Dr. Srinatha. Yoga Alliance & YACP accredited.',
   keywords: ['yoga', 'ashtanga', 'hatha', 'teacher training', 'mysore', 'online yoga', 'yoga alliance', 'YACP', 'Dr. Srinatha', 'ayurveda', 'philosophy'],
   authors: [{ name: 'Dr. Balasundara Srinatha' }],
   generator: 'v0.app',
   openGraph: {
-    title: 'Srinatha Yoga Shala | Online Ashtanga & Hatha Yoga Teacher Training Mysore',
+    title: 'Srinatha Yoga School | Online Ashtanga & Hatha Yoga Teacher Training Mysore',
     description: 'Experience traditional Mysore yoga online. Certified TTC, Philosophy, and Ayurveda courses led by Dr. Srinatha. Yoga Alliance & YACP accredited.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Srinatha Yoga Shala | Online Ashtanga & Hatha Yoga Teacher Training Mysore',
+    title: 'Srinatha Yoga School | Online Ashtanga & Hatha Yoga Teacher Training Mysore',
     description: 'Experience traditional Mysore yoga online. Certified TTC, Philosophy, and Ayurveda courses led by Dr. Srinatha. Yoga Alliance & YACP accredited.',
   },
 }

@@ -31,12 +31,12 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-3 mb-6">
               <Image
                 src="/images/logo.png"
-                alt="Srinatha Yoga Shala"
+                alt="Srinatha Yoga School"
                 width={48}
                 height={48}
               />
               <span className="font-serif text-xl text-[#264020] font-semibold">
-                Srinatha Yoga Shala
+                Srinatha Yoga School
               </span>
             </Link>
             <p className="text-[#264020]/60 text-sm leading-relaxed mb-6">
@@ -141,7 +141,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-[#264020]/60">
-              &copy; 2026 Srinatha Yoga Shala. All Rights Reserved.
+              &copy; 2026 Srinatha Yoga School. All Rights Reserved.
             </p>
             <div className="flex gap-6 text-sm text-[#264020]/60">
               <Link href="/privacy" className="hover:text-[#264020] transition-colors">

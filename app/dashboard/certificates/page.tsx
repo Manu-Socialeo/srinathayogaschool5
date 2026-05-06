@@ -19,7 +19,7 @@ const certificates = [
   {
     id: 2,
     name: "Yoga Sadhana Advanced",
-    issuer: "Srinatha Yoga Shala",
+    issuer: "Srinatha Yoga School",
     date: "Expected: June 2025",
     status: "In Progress",
     progress: 45,
@@ -28,7 +28,7 @@ const certificates = [
   {
     id: 3,
     name: "Pranayama & Meditation Course",
-    issuer: "Srinatha Yoga Shala",
+    issuer: "Srinatha Yoga School",
     date: "Expected: August 2025",
     status: "In Progress",
     progress: 20,

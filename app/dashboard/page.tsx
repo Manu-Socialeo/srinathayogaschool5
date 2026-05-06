@@ -45,8 +45,8 @@ function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) 
       `}>
         <div className="p-6 border-b border-white/10">
           <Link href="/" className="flex items-center gap-3">
-            <Image src="/images/logo.png" alt="Srinatha Yoga Shala" width={40} height={40} className="brightness-0 invert" />
-            <span className="text-white font-serif text-lg">Srinatha Yoga Shala</span>
+            <Image src="/images/logo.png" alt="Srinatha Yoga School" width={40} height={40} className="brightness-0 invert" />
+            <span className="text-white font-serif text-lg">Srinatha Yoga School</span>
           </Link>
         </div>
 

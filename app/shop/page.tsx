@@ -218,8 +218,8 @@ export default function ShopPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center gap-3">
-              <Image src="/images/logo.png" alt="Srinatha Yoga Shala" width={48} height={48} className="h-12 w-auto" />
-              <span className="font-serif text-xl font-semibold text-[#264020]">Srinatha Yoga Shala</span>
+              <Image src="/images/logo.png" alt="Srinatha Yoga School" width={48} height={48} className="h-12 w-auto" />
+              <span className="font-serif text-xl font-semibold text-[#264020]">Srinatha Yoga School</span>
             </Link>
 
             <nav className="hidden md:flex items-center gap-8">

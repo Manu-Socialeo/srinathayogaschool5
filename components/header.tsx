@@ -39,13 +39,13 @@ export function Header() {
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/images/logo.png"
-              alt="Srinatha Yoga Shala"
+              alt="Srinatha Yoga School"
               width={48}
               height={48}
               className="h-12 w-auto"
             />
             <span className="font-serif text-xl font-semibold text-[#264020]">
-              Srinatha Yoga Shala
+              Srinatha Yoga School
             </span>
           </Link>
 

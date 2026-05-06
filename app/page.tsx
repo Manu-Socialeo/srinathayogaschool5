@@ -136,7 +136,7 @@ export default function HomePage() {
               </h1>
               
               <p className="text-lg text-[#264020]/70 max-w-2xl mx-auto mb-8 leading-relaxed">
-                At Srinatha Yoga Shala, we bring ancient yogic wisdom into your modern lifestyle. 
+                At Srinatha Yoga School, we bring ancient yogic wisdom into your modern lifestyle. 
                 Apart from sharing Yogic Philosophy, we focus on four essential practices: 
                 asanas, breath-work, chanting, and dhyana which we call the ABCD of Yoga.
               </p>
